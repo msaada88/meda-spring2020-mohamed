@@ -1,0 +1,171 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Layout</title>
+
+  <style>
+      html{
+
+      }
+      *{
+          font-family: 'mom'
+          !important;
+          
+      }
+      body {
+          background-color: lightslategray;
+          background-image: url("bg.jpg");
+          background-size: cover;
+          background-repeat: repeat;
+      }
+
+    p {
+        color:skyblue;
+    }
+
+    #footer p {
+        color: red;
+    }
+
+    #footer {
+        background-color:green;
+        width: 900px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    #footer h6 {
+        color: white;
+    }
+
+    #footer div h6 {
+        color: coral;
+    }
+
+    #header h1 {
+        color:darkgrey;
+    }
+
+    #header {
+        width:820px;
+        background-color:chocolate;
+        color:cornsilk;
+        padding: 40px;
+        margin: 0 auto;
+    }
+
+    #main {
+        color:darkblue;
+        width: 880px;
+        border: solid 10px orange;
+        border-radius: 50px;
+        margin: 25px auto;
+        padding-left: 0;
+        background-color: rgba(0,0,0,.5);
+
+        
+    }
+
+    #main div {
+        height: 100px;
+        border-radius: 15px;
+        background-color: darksalmon;
+        width: 75%;
+        margin: 0 auto 10px auto;
+        overflow: auto;
+        margin-top: 20px;
+        background-image: url("week_2/div-insert-img.jpg"/);
+    }
+    #main div:nth-child(1){
+        margin-top: 20px;
+    }
+    #main div p {
+        color: ghostwhite;
+        font-size: 40px;
+        font-family: "Arial";
+        margin: 20px;
+    }
+    #main .odd {
+        background-color: hotpink;
+
+    }
+    #main .even {
+        background-color: lawngreen;
+    }
+
+    #food-list {
+        list-style-type: none;
+        background-color: greenyellow;
+        padding-left: 0;
+        width:900px;
+        margin: 0 auto;
+    }
+
+    #food-list li {
+        display: inline-block;
+        background-color: yellow;
+        margin: 10px;
+        width: 57px;
+    }
+
+    #videos {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+    <!-- HTML5 version is <header></header> -->
+    <div id="header">
+        <h1>This is the title of the header area.</h1>
+        <p>This area is the first div.</p>
+    </div>
+
+    <!-- HTML5 version is <main></main> -->
+    <div id="main">
+        
+        <div class="odd">
+            <p>This area is the second div.</p>
+        </div>
+        <div class="even">
+
+        </div>
+        <div class="odd">
+
+        </div>
+        <div class="odd"s>
+
+        </div>
+        <div class="even">
+
+        </div>
+    </div>
+
+    <!-- HTML5 version is <footer></footer> -->
+    <div id="footer">
+        <p>&copy; 2020 <span id="myname">Eduardo</span> Garcia</p>
+        <h6>This is really tiny text as well!</h6>
+
+        <div>
+            <h6>This is really tiny text!</h6>
+        </div>
+    </div>
+
+    <ul id="food-list">
+        <li>Sushi</li><li>Cat Food</li><li>Cheese</li><li>Donuts</li><li>Pupusas</li><li>Hamburger</li><li>Fries</li><li>Steak</li><li>Algae</li>
+    </ul>
+
+    <div id="videos">
+            <iframe width="900" height="506" src="https://www.youtube.com/embed/O4iGNXsqghs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+</body>
+
+</html>
