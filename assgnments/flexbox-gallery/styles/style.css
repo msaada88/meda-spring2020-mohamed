@@ -1,0 +1,40 @@
+body{
+    background-color:transparent;
+    padding: 15;
+}
+#figure, figure > img{
+    width: 200px;
+    margin: 15px;
+}
+
+
+div#flex-gallery{
+    display: flex;
+    flex-wrap:wrap;
+   
+}
+#flex-gallery > figure{
+    background-color: honeydew;
+    padding: 30px;
+    margin: 30px;
+}
+#flex-gallery > img{
+    background-color: rebeccapurple;
+    padding: 20px;
+    margin: 15px;
+}
+figure > img{
+    border: dashed 15px blueviolet; 
+    border-radius: 20px;
+}
+figure > img{
+    width: 220px;
+}
+figure{
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+    line-height: 30px; color: pink;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

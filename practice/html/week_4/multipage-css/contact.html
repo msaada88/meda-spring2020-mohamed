@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>SF's Posh Gallery | Contact Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+  <link rel="stylesheet" type="text/css" href="styles/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <a href="index.html">
+                <img id="logo" src="images/logo.png" alt="SF Posh Gallery" width="150" height="150" />
+            </a>
+        </div>
+
+        <div id="title-container">
+            <h1>Welcome to<br />San Francisco's<br />Posh Gallery</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact & Location</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contact">
+
+        <h1>Contact Us! Only $5.99 + S&H + Tax .11% per message.</h1>
+        <hr />
+        <div id="contact-flexbox">
+            <!-- div:first-child selects the following: -->
+            <div>
+                <form id="contact-form" action="#">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" />
+                    <br />
+                    <label for="email">Email: </label>
+                    <input type="text" id="email" />
+                    <br />
+                    <label for="subject">Subject: </label>
+                    <input type="text"  id="subject" />
+                    <br />
+                    <label for="message">Message: </label>
+                    <br />
+                    <textarea id="message"></textarea>
+                    <br />
+                    <input class="form-buttons" type="reset" />
+                    <input class="form-buttons" type="submit" />
+                </form>
+            </div>
+            <!-- div:last-child selects the following: -->
+            <div>
+
+                <dl id="additional-info">
+                    <dt>Address:</dt>
+                    <dd>395 Posh St. San Francisco California, 94110</dd>
+                    <dt>Email Address:</dt>
+                    <dd>
+                        <a href="mailto:reallyposh@poshgallery.com">reallyposh@poshgallery.com</a>
+                    </dd>
+                    <dt>Phone:</dt>
+                    <dd>
+                        <a href="tel:4157597674">(415)RLY-POSH</a>
+                    </dd>
+                </dl>
+                
+            </div>
+        </div>
+       
+    </main>
+
+    <footer>
+        
+        <section id="social-links">
+            <ul>
+                <li><a href="https://www.github.com"><i class="fab fa-github"></i> GitHub</a></li>
+                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://www.flickr.com/"><i class="fab fa-flickr"></i> Flickr</a></li>
+            </ul>
+        </section>
+
+
+
+        <section>
+            <p id="copyright">Copyright &copy; 2020 San Francisco's Posh Gallery</p>
+        </section>
+
+    </footer>
+    
+</body>
+</html>

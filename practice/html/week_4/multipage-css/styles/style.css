@@ -1,0 +1,252 @@
+body {
+    background-color: turquoise;
+}
+
+header, main, footer {
+    width: 900px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 36px;
+}
+
+/* HEADER STYLES START */
+
+header {
+    padding-right: 0;
+    width: 950px;
+}
+
+header, main {
+    border-bottom: turquoise 5px solid;
+}
+
+header h1 {
+    font-family: "Zapfino";
+    font-size: 48px;
+    text-align: center;
+    color: turquoise;
+    line-height: 84px;
+}
+
+#logo {
+    float: left;
+}
+
+#title-container {
+    margin-left: 200px;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: turquoise;
+    color: white;
+    padding: 12px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-family: "Arial";
+}
+
+nav ul li:hover {
+    background-color: coral;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:link {
+    color: white;
+}
+
+nav ul li a:visited {
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+nav ul li a:active {
+     /* color: lightpink; */
+}
+
+/* HEADER STYLES END */
+
+/* FOOTER STYLES START */
+
+footer {
+    color: turquoise;
+    font-family: "Arial";
+    line-height: 48px;
+}
+
+#copyright {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+#social-links ul {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#social-links ul li {
+    display: inline-block;
+    border: solid 1px turquoise;
+    border-radius: 10px;
+    padding: 0;
+}
+
+#social-links ul li {
+    line-height: 100%;
+    box-sizing: border-box;
+}
+
+#social-links ul li a {
+    display: block;
+    padding: 8px;
+}
+/* 
+#social-links ul li:hover {
+    color: white;
+    background-color: turquoise;
+} */
+
+#social-links ul li a:link {
+    text-decoration: none;
+    color: turquoise;
+}
+
+#social-links ul li a:visited {
+    color: turquoise;
+}
+
+#social-links ul li a:hover {
+ color: white;
+ background-color: turquoise;
+}
+
+
+
+/* FOOTER STYLES END */
+
+/* MAIN DEFAULT STYLES START */
+
+main {
+    font-family: "Arial";
+    color: turquoise;
+}
+
+main h1 {
+    font-family: "Zapfino";
+    font-size: 36px;
+    text-align: center;
+    line-height: 80px;
+    margin-top: 30px;
+    /* text-transform: uppercase; */
+}
+
+main p {
+    font-size: 24px;
+}
+
+/* MAIN DEFAULT STYLES END */
+
+/* HOMEPAGE STYLE START */
+    main#homepage p {
+        margin: 20px;
+        line-height: 30px;
+        text-align: justify;
+    }
+/* HOMEPAGE STYLE END */
+
+/* GALLERY STYLE START */
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#gallery div {
+    width: 200px;
+}
+
+#gallery div img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+/* GALLERY STYLE END */
+
+/* CONTACT STYLE START */
+
+#contact > hr {
+    border: dotted 2px turquoise;
+}
+
+#contact-flexbox {
+    display: flex;
+}
+
+#contact-flexbox div:first-child {
+    flex-grow: 3;
+}
+
+#contact-flexbox div:last-child {
+    flex-grow: 1;
+}
+
+#contact-form {
+    width: 400px;
+    margin: 20px;
+}
+
+#contact-form label {
+    font-size: 24px;
+}
+
+#contact-form input {
+    border: dashed 5px turquoise;
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: turquoise;
+    padding-left: 11px;
+}
+
+#contact-form .form-buttons {
+    margin: 20px;
+    color: turquoise;
+    font-size: 18px;
+    width: 360px;
+}
+
+#contact-form .form-buttons:hover {
+    border: solid turquoise 5px;
+    cursor: pointer;
+}
+
+#contact-form textarea {
+    border: dashed 5px turquoise;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 11px;
+    font-size: 18px;
+    color: turquoise;
+}
+
+
+/* CONTACT STYLE END */
