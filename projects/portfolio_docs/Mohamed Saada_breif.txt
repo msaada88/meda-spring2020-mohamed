@@ -1,0 +1,62 @@
+A)My Choice of colors: Body: black
+background color: white
+link text: black or blue.
+Text:black
+
+Step A: ABOUT ME PAGE
+   My name is Mohamed Saada. I'm from the Middle East(half Iraqi &half Jordanian). I came to the USA 7 years ago and have lived here in San Francisco for the last five. I love this city and exploring all of the unique areas.The Mission is one of my favorites. Over the last year I have found a love of running and I like to run every day about 2-3 miles.
+I have worked with computers for the majority of my life. I enjoy working on coding and researching application development. I have worked on developing apps for Android devices.  
+
+  
+
+Growing up as the oldest of five children, my parents relied on me to be an example for my siblings. My entire life has been one in which I am trying to be a positive influence not only for my siblings but my friends. I am good at being diplomatic and listening to both sides of an argument before making any judgments.   
+
+  
+
+I enjoy very much working with a team.  I feel I am more successful in a group because I believe in collaboration and sharing of ideas produces the best results. 
+
+
+RESUME
+
+PROJECTS PAGE:
+Project1
+
+Project2
+
+Project3
+
+
+CONTACT PAGE:
+PHONE NUMBER:
+lOCATION:
+EMAIL:m8.8@yahoo.com
+COPYRIGHT © 2020 Mohamed Saada
+github,linkedin,facebook,twitter,instagram
+
+Example Portfolios(https://wpamelia.com/portfolio-websites/#webdev)
+1).Ben Adam
+https://benadam.me/ 
+I like the portfolio presentation.
+It's not in detail.
+
+Header:Logo,menu,Picture
+Body:About and services
+Footer:Email and copy right
+2).Daniel Fischer
+
+https://www.danielfischer.com/  
+I like the simple design.
+No images(I dont like)
+Header:name,difficult to guess
+Body:quotes,links
+Footer:not showing any footer.
+
+3).Jack
+https://jacekjeznach.com/ 
+I like unique design.
+I did not like black background.
+Header:name and contact
+Body:About me and other details
+Footer:all social media symbols 
+
+
