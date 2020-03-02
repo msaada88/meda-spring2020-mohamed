@@ -22,9 +22,15 @@ var dividend = 20 / 10;
 var difference = 100 - 10;
 
 
+
 // When using variable names on the right side of the equal sign, you are calling for value and then you are running the operators, and finally you are storing the final value into the variable total.
 var total = sum + product;
 
+console.log(total);
+console.log(total);
+console.log(total);
+console.log(total);
+console.log(total);
 console.log(total);
 
 // Looked at the built-in Math library of JavaScript.
@@ -47,6 +53,35 @@ var roundedUp = Math.ceil(45.1);
 //Round down
 var roundedDown = Math.floor(45.9);
 
-var someNumber=(Math.random()*1000)+500;
-var roundedRandomNumber=Math.floor(someNumber);
+// Math.random() returns a value between 0 and .9infinity
+// We add a 1 so minimum is now 1, and we multiply 1000 so maximum is 1000.9
+var someNumber = ( Math.random() * 1000 ) + 1;
+
+// We floor the random number so decimals are removed.
+var roundedRandomNumber = Math.floor(someNumber);
+// or use the existing variable:
+// someNumber = Math.floor(someNumber);
+
+// Print random number.
 console.log(roundedRandomNumber);
+
+// Declaring multiple variables
+var variableA, variableB;
+
+//declaring multiple variables as well as initializing values.
+var variable1 =  "10", variable2 = 100, variable3 = true;
+
+console.log(variable2);
+
+// Calling before Defining
+console.log(howAreYou);
+var howAreYou = "Hello";
+// You will get undefined
+
+
+// We reassign the howAreYou value to 100, then we call howAreYou for it's value and assign that to coolVariable.
+var coolVariable = howAreYou = 100;
+
+console.log(coolVariable);
+
+variable1 = coolVariable;

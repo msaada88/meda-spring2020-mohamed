@@ -1,0 +1,181 @@
+body {
+    background-color: grey;
+}
+
+header,
+main,
+footer {
+    width: 900px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 30px;
+}
+
+
+header {
+    padding-right: 0;
+    width: 900px;
+}
+
+header,
+main {
+    border-bottom: grey 5px solid;
+}
+
+header h1 {
+    font-family: "Zapfino";
+    font-size: 48px;
+    text-align: center;
+    color: Black;
+    line-height: 84px;
+}
+
+.container .logo {
+
+    float: left;
+   
+    color: grey;
+}
+
+#title-container {
+    margin-left: 200px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: grey;
+    color: white;
+    padding: 12px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-family: "Arial";
+}
+
+
+#aboutmepic {
+    position: relative;
+}
+
+#aboutmepic img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    float: right;
+}
+
+
+
+
+
+
+.button,
+.resumebutton {
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 10px 0 0;
+    padding: 5px 20px;
+    width: auto;
+    background: transparent;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.resumebutton {
+    border: 1px solid #ff2d01;
+    color: #ff2d01;
+}
+
+
+
+footer {
+    color: blue;
+    font-family: "Arial";
+    line-height: 48px;
+}
+
+#copyright {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+#social-links ul {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#social-links ul li {
+    display: inline-block;
+    border: solid 1px grey;
+    border-radius: 10px;
+    padding: 0;
+}
+
+#social-links ul li {
+    line-height: 100%;
+    box-sizing: border-box;
+}
+
+#social-links ul li a {
+    display: block;
+    padding: 8px;
+}
+
+
+
+#social-links ul li a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+#social-links ul li a:visited {
+    color: black;
+}
+
+#social-links ul li a:hover {
+    color: black;
+    background-color: blue;
+}
+
+#wrapper {
+display: grid;
+grid-row: auto;
+
+    
+}
+
+main > img {
+    width: 500px;
+    height: 500px;
+
+}
+
+main {
+    font-family: "Arial";
+    color: black;
+}
+
+main h1 {
+    font-family: "Zapfino";
+    font-size: 36px;
+    text-align: center;
+    line-height: 80px;
+    margin-top: 30px;
+   
+}
+
+main p {
+    font-size: 24px;
+}
+
